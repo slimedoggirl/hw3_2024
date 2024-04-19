@@ -217,8 +217,12 @@ text-align: center;
   }
   /* Step 10: Write the selector/rule property to update the .container class */
   .container{
+    display: none;
+  }
+  
+  .container{
     display: grid;
-    grid-template-columns: 50px, auto, 500px, auto, 50px;
+    grid-template-columns: 50px auto 500px auto 50px;
   }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
